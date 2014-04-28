@@ -1,0 +1,85 @@
+.layout-list div{
+    width:33%;text-align:center;FLOAT:LEFT;
+}
+.layout-list div h3{
+    text-align:center
+}
+#Users_layout{
+    height: 25px;
+}
+
+.options-list > div{
+    float:left;
+}
+
+.options-list select{
+    width: 120px;
+    height: 26px;
+}
+
+.options-list .control-group{
+    margin-top:15px;
+}
+
+#options{
+    width:500px;
+}
+#visual_options{
+    width:809px;
+    position:relative;
+}
+#visual_options > h3{
+    text-align:center;
+}
+.option{
+    position:absolute;
+    background: #999;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.Position1,.Position2{
+    bottom: 42px;
+    right: 33px;
+    padding: 52px;
+    width: 202px;
+    height: 150px;
+}
+
+.Position2{
+    bottom: 213px;
+    right: 33px;
+    padding: 52px;
+    padding-top: 78px;
+    width: 202px;
+    height: 185px;
+}
+
+.Position3{
+    bottom: 355px;
+    right: 379px;
+    padding: 13px;
+    padding-left: 4px;
+    width: 242px;
+    height: 52px;
+}
+.Position4{
+    bottom: 165px;
+    right: 383px;
+    padding: 13px;
+    padding-left: 4px;
+    width: 242px;
+    height: 52px;
+}
+
+.Position5{
+    bottom: 355px;
+    right: 626px;
+    padding: 13px;
+    padding-left: 4px;
+    width: 150px;
+    height: 52px; 
+}
+
+
+

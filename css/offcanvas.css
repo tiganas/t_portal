@@ -1,0 +1,221 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+
+.wrapper{margin:0 0 0 50px}
+
+#position3, #position3 #title_block, #position3 .teatre_name_block, #position5, #position5 .teatre_name_block{
+    display:inline;
+}
+
+#position2 .teatre_name_block{
+    margin-bottom:80px;
+}
+
+#position2 #play_times_block{
+    margin-bottom:80px;
+}
+
+#position2  #title_block, #position1  #title_block{
+    padding-right:10px;
+}
+#position2  #title_block{
+    margin-bottom:80px;
+}
+
+#position1 #title_block > h2, #position2 #title_block > h2{
+    margin-top:40%; text-align:center;
+}
+.teatre_name_block h2 {
+max-height: 100px;
+}
+#position1 .teatre_name_block #teatre-name, #position2 .teatre_name_block #teatre-name{
+    width: auto;
+}
+#position1 .teatre_name_block, #position2 .teatre_name_block{
+    text-align: center;
+     margin-top:40%;
+}
+#position1 .thumb, #position2 .thumb{
+    border-top:none !important;
+    margin-top:30%;
+}
+
+#position2 .thumb{
+    margin-top:0px;margin-right:15px;margin-bottom:80px;
+}
+
+#position1 .thumb{
+    margin-right:15px;
+}
+
+#position1 #jp_container_N, #position2 #jp_container_N{
+    margin-top:0px !important;
+}
+
+#position4 #title_block{
+    text-align: center;
+}
+
+#position4 #title_block h2{
+    text-align: center;
+    max-height:none;
+    margin-top:80px;
+}
+#position4  #sidebar2 .times{
+    margin-top:80px;
+    width: 24%;
+}
+
+#position4 .description_block{
+    margin-top:80px;
+    color:#F8F7F7;
+    font-size:18px;
+}
+
+#position4 #play_times_block #sidebar2{
+    font-size:18px;
+}
+
+#position4 .teatre_name_block{
+    text-align: center;
+    margin-top:80px;
+}
+#position1 .teatre_name_block, #position2 .teatre_name_block{
+    margin-top:35px;
+}
+
+.description_block{
+    max-height: 353px;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 1450px) {
+    .description_block{
+        font-size:15px;
+    }
+    #position1 a,#position1 p,#position2 a,#position2 p{
+        font-size:15px !important;
+    }
+    #position1 h3{
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .jp-jplayer{
+        margin-top: 72px;
+    }
+    #film-header h2{
+        font-size: 21px !important;line-height: 200%;
+    }
+    .customClass{
+        margin-top: 5% !important;
+    }
+    .wrapper {
+        margin: 0 0 0 8px;
+    }
+    body{
+        min-height:600px;        
+    }
+    #teatre-name{
+        margin-left: 41px;
+    }
+    #position1 a,#position1 p,#position2 a,#position2 p{
+        font-size:11px !important;
+    }
+    #position1 h3{
+        font-size: 16px;
+    }
+    .customClass > div{
+        padding-right:24px !important;
+    }
+    #sidebar{
+        padding-left: 0px;
+    }
+    .description_block{
+        max-height: 169px;
+        overflow: hidden;       
+    }
+    #position2 h3,#position1 h3{
+        font-size:16px !important;
+    }
+    #position1, #position2{
+        max-height:250px !important;
+    }
+    #position2 #play_times_block {
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 840px) {
+  #position4 .description_block {
+    font-size:14px;overflow:visible;margin-top: 45px;
+  }
+  
+  #position4 #title_block h2{
+      margin-top:15px;line-height: 40px;
+  }
+  
+  
+}
+
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}

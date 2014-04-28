@@ -1,0 +1,33 @@
+.jp-video-full #jp_close, .jp-video-full .jp-playlist{display:none;}
+.jp-playlist-item-remove{display:none !important;}
+.jp-video-full .jp-type-playlist, .jp-video-full .jp-jplayer, .jp-video-full .jp-jplayer video{width:100% !important;height:100% !important;}
+.jp-playlist{}
+.jp-full-screen,.jp-repeat{margin-left: 5%;}
+.jp-video-full .jp-gui{display:none !important;}
+div.jp-interface ul.jp-controls{background:none;width: auto;}
+div.jp-controls-holder{width: 98%;margin-left: 2%;margin-right: 2%;}
+div.jp-video ul.jp-controls {margin: 0 auto;width: 103px;float: none;display: block;}
+div.jp-video ul.jp-toggles{width: 27%;}
+.jp-toggles{position: absolute;right: 0;top: 0;}
+.jp-previous, .jp-next, .jp-shuffle{display:none !important;}
+#jp_container_N{overflow: auto; overflow-y: scroll; position: fixed; bottom: 0; right: 0;top: 0;left: 0;z-index: 8010;background: url('img/fancybox_overlay.png');display:none;}
+.jp-type-playlist{width: 50%;height: auto;position: absolute;top: 20%;left: 25%;opacity: 1;overflow: visible;}
+.description{max-height:200px;overflow:hidden;}
+.item{height:auto;min-height:380px;}
+.thumb{position:relative; overflow:hidden;}
+.today_playing{padding:3px 8px !important;font-size:12px !important;position:absolute !important;bottom:-3px !important;right:-3px !important;}
+
+.side{position: absolute;right: 25px;top: 5px;z-index: 10;}
+.bx-wrapper{margin:0 !important;width:100% !important;max-width:100% !important;}
+.navbar-fixed-top{z-index:1000000000;}
+
+
+
+
+
+
+
+
+
+
+
